@@ -22,10 +22,38 @@
 
 .project-item{
     float: left;
-    height: 200px;
-    background-color: red;
-    width: 24%;
+    height: 300px;
+    /* background-color: red; */
+    width: 48%;
     border: 1px solid green;
     margin-left: 10px;
     margin-bottom: 10px;
+    /* background-image: url('images/project.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #241212;
+}
+
+.project-content {
+    background-color: #F85606;
+}
+
+.footer{
+    margin-top: 10px;
+    height: 150px;
+    background-color: #212129;
+    color: white;
+}
+
+.footer-item{
+    float: left;
+    width: 33%;
+}
+
+.link{
+    text-decoration: none;
+    display: block;
+    color: #F85606;
 }
